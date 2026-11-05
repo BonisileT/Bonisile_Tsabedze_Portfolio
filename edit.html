@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio editor</title>
+  <link rel="stylesheet" href="assets/css/editor.css">
+</head>
+<body>
+  <header class="ed-top">
+    <div class="ed-brand">
+      <strong>Portfolio editor</strong>
+      <span id="state" class="state">All changes saved</span>
+    </div>
+    <div class="ed-actions">
+      <button type="button" id="btnPreview" class="btn ghost only-narrow">Preview</button>
+      <a class="btn ghost" id="btnOpen" href="index.html" target="_blank" rel="noopener">Open site ↗</a>
+      <button type="button" id="btnPublish" class="btn primary">Publish</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <div class="ed-layout">
+    <nav id="tabs" class="ed-tabs" aria-label="Sections"></nav>
+    <main id="panel" class="ed-panel" tabindex="-1"></main>
+    <aside id="previewPane" class="ed-preview" aria-label="Live preview">
+      <div class="pv-bar">
+        <strong>Live preview</strong>
+        <span>
+          <button type="button" id="pvDevice" class="btn ghost sm">Phone width</button>
+          <button type="button" id="pvClose" class="btn ghost sm only-narrow">Close</button>
+        </span>
+      </div>
+      <div class="pv-frame" id="pvFrame"><iframe id="pv" src="index.html" title="Live preview of the portfolio"></iframe></div>
+    </aside>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="data/content.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/editor.js"></script>
+</body>
+</html>
