@@ -24,7 +24,17 @@ window.PORTFOLIO_CONTENT = {
   "footer": {
     "tagline": "IT Portfolio · Eswatini"
   },
-  "layout": ["about", "education", "skills", "projects", "certificates", "achievements", "info", "goals", "contact"],
+  "layout": [
+    "about",
+    "education",
+    "skills",
+    "projects",
+    "certificates",
+    "achievements",
+    "info",
+    "goals",
+    "contact"
+  ],
   "sections": {
     "about": {
       "show": true,
@@ -59,15 +69,51 @@ window.PORTFOLIO_CONTENT = {
       "title": "Technical skills",
       "lead": "Skills and knowledge developed through IT studies and practical coursework.",
       "items": [
-        { "icon": "⌘", "title": "Computer Hardware", "description": "Computer components, maintenance and troubleshooting common hardware issues." },
-        { "icon": "⚙", "title": "Software Installation", "description": "Installing, configuring and maintaining operating systems and application software." },
-        { "icon": "⌁", "title": "Networking", "description": "Network configuration, IP addressing, VLAN concepts and Cisco Packet Tracer." },
-        { "icon": "</>", "title": "Programming", "description": "Foundational programming experience with Java, C++ and PHP." },
-        { "icon": "▤", "title": "Database Management", "description": "Relational database concepts and tools including MySQL and Apache Derby." },
-        { "icon": "◈", "title": "Web Development", "description": "Creating web pages with HTML and CSS and working with WordPress." },
-        { "icon": "⌨", "title": "Linux", "description": "Using Linux operating-system tools and commands for basic system tasks." },
-        { "icon": "⛨", "title": "Cybersecurity", "description": "Security fundamentals, system protection, access permissions and monitoring concepts." },
-        { "icon": "▦", "title": "Microsoft Office", "description": "Microsoft Word, Excel and PowerPoint for documents and presentations." }
+        {
+          "icon": "⌘",
+          "title": "Computer Hardware",
+          "description": "Computer components, maintenance and troubleshooting common hardware issues."
+        },
+        {
+          "icon": "⚙",
+          "title": "Software Installation",
+          "description": "Installing, configuring and maintaining operating systems and application software."
+        },
+        {
+          "icon": "⌁",
+          "title": "Networking",
+          "description": "Network configuration, IP addressing, VLAN concepts and Cisco Packet Tracer."
+        },
+        {
+          "icon": "</>",
+          "title": "Programming",
+          "description": "Foundational programming experience with Java, C++ and PHP."
+        },
+        {
+          "icon": "▤",
+          "title": "Database Management",
+          "description": "Relational database concepts and tools including MySQL and Apache Derby."
+        },
+        {
+          "icon": "◈",
+          "title": "Web Development",
+          "description": "Creating web pages with HTML and CSS and working with WordPress."
+        },
+        {
+          "icon": "⌨",
+          "title": "Linux",
+          "description": "Using Linux operating-system tools and commands for basic system tasks."
+        },
+        {
+          "icon": "⛨",
+          "title": "Cybersecurity",
+          "description": "Security fundamentals, system protection, access permissions and monitoring concepts."
+        },
+        {
+          "icon": "▦",
+          "title": "Microsoft Office",
+          "description": "Microsoft Word, Excel and PowerPoint for documents and presentations."
+        }
       ],
       "professionalTitle": "Professional skills",
       "professional": [
@@ -92,7 +138,21 @@ window.PORTFOLIO_CONTENT = {
       "lead": "Project descriptions can be added as coursework and practical work are prepared for publication.",
       "placeholderTitle": "Projects coming soon",
       "placeholderText": "This portfolio is ready for project titles, objectives, technologies, screenshots and supporting evidence. No project details have been assumed.",
-      "items": []
+      "items": [
+        {
+          "title": "Database Management System",
+          "status": "Completed Academic Project",
+          "period": "",
+          "summary": "A database development project as part of my Information Technology coursework. The project involved designing and implementing a database system, organizing information, creating database tables, and working with data management operations.",
+          "technologies": [
+            "MySQL PHP HTML CSS"
+          ],
+          "image": "",
+          "link": "",
+          "repo": "",
+          "evidence": ""
+        }
+      ]
     },
     "certificates": {
       "show": true,
@@ -156,7 +216,10 @@ window.PORTFOLIO_CONTENT = {
       "title": "Contact me",
       "lead": "I welcome opportunities to learn, grow and contribute in an IT environment.",
       "email": "tsabedzebonisile19@gmail.com",
-      "phones": ["+268 79603047", "+268 78348295"],
+      "phones": [
+        "+268 79603047",
+        "+268 78348295"
+      ],
       "location": "Mbabane, Eswatini",
       "whatsapp": "26879603047",
       "whatsappLabel": "Chat on WhatsApp ↗",
@@ -165,9 +228,18 @@ window.PORTFOLIO_CONTENT = {
       "emailSubject": "IT Internship Enquiry",
       "emailButton": "Compose email ↗",
       "socials": [
-        { "label": "Facebook", "url": "" },
-        { "label": "LinkedIn", "url": "" },
-        { "label": "GitHub", "url": "" }
+        {
+          "label": "Facebook",
+          "url": ""
+        },
+        {
+          "label": "LinkedIn",
+          "url": ""
+        },
+        {
+          "label": "GitHub",
+          "url": ""
+        }
       ]
     }
   }
