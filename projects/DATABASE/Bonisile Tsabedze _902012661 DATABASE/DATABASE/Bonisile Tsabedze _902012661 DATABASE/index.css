@@ -1,0 +1,96 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #dbeafe, #f8fafc);
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 850px;
+    background: #ffffffee;
+    backdrop-filter: blur(12px);
+    margin: 60px auto;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 
+        0 18px 40px rgba(0,0,0,0.12),
+        0 0 10px rgba(255,255,255,0.7) inset;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 35px;
+}
+
+/* ===== USER STATUS BOX ===== */
+.logged-in, 
+.logged-out {
+    background: #e0e7ff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #334155;
+}
+
+/* ===== HEADINGS ===== */
+.section h2 {
+    font-size: 22px;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+/* ===== BUTTON GROUP ===== */
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+/* ===== BUTTON STYLE ===== */
+.btn {
+    display: inline-block;
+    background: #ffffff;
+    padding: 14px 32px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e293b;
+    transition: 0.3s ease;
+    box-shadow:
+        3px 3px 10px rgba(0,0,0,0.12),
+        -3px -3px 10px rgba(255,255,255,0.9);
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #3b82f6;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow:
+        4px 4px 12px rgba(0,0,0,0.18),
+        -3px -3px 8px rgba(255,255,255,0.7);
+}
+
+/* Logout button */
+.btn.logout {
+    background: #ef4444;
+    color: white;
+}
+
+.btn.logout:hover {
+    background: #b91c1c;
+    transform: translateY(-4px);
+}
